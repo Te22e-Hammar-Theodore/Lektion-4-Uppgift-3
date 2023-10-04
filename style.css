@@ -19,14 +19,6 @@ main {
   grid-template-columns: repeat(7, 1fr);
 }
 
-header {
-  text-align: center;
-}
-
-.datum {
-  justify-self: center;
-}
-
 .bild-2 {
   justify-self: end;
 }
@@ -34,3 +26,16 @@ header {
 footer {
   text-align: center;
 }
+
+header {
+  text-align: center;
+  background-color: dimgray;
+  border: 2px solid red;
+  color: beige;
+  font-size: 1.25321321312312rem;
+}
+
+.datum {
+    justify-self: center;
+    background-color: dimgray;
+  }

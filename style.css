@@ -1,0 +1,36 @@
+body {
+  background-image: url(images/winter_bg3.jpg);
+  background-size: cover;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 10% auto 10%;
+}
+
+.datum,
+footer,
+main {
+  grid-column: 2/3;
+}
+
+.kalender {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+header {
+  text-align: center;
+}
+
+.datum {
+  justify-self: center;
+}
+
+.bild-2 {
+  justify-self: end;
+}
+
+footer {
+  text-align: center;
+}

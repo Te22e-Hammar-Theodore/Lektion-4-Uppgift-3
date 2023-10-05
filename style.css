@@ -6,6 +6,7 @@ body {
 .grid {
   display: grid;
   grid-template-columns: 10% auto 10%;
+  gap: 20px;
 }
 
 .datum,
@@ -14,10 +15,7 @@ main {
   grid-column: 2/3;
 }
 
-.kalender {
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-}
+
 
 .bild-2 {
   justify-self: end;
@@ -25,6 +23,7 @@ main {
 
 footer {
   text-align: center;
+  padding-bottom: 16px;
 }
 
 header {
@@ -36,6 +35,40 @@ header {
 }
 
 .datum {
-    justify-self: center;
-    background-color: dimgray;
-  }
+  justify-self: center;
+  background-color: dimgray;
+  border: 2px solid yellow;
+  list-style-type: square;
+}
+
+.kalender {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+
+  padding: 16px;
+
+  text-align: center;
+  background-color: #f6e9dc;
+  border: 2px solid gray;
+}
+
+.kalender h1{
+  text-align: center;
+  padding: 25px 0;
+  margin: 0;
+  border: 2px solid red;
+}
+
+.kalender h2{
+  text-align: center;
+  background-color: gray;
+  border: 2px solid red;
+}
+
+footer a{
+  padding: .25rem;
+
+  color: black;
+  background-color: white;
+  font-weight: 700;
+}

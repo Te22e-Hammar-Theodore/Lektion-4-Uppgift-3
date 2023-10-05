@@ -72,3 +72,16 @@ footer a{
   background-color: white;
   font-weight: 700;
 }
+
+.nyårsdagen{
+  background-color: darkgoldenrod;
+}
+
+.julafton{
+  color: red;
+  background-color: white;
+}
+
+.röd-dag{
+  color: red;
+}
